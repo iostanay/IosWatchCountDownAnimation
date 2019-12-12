@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDFFCC0523A1167400C7EDB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFFCC0423A1167400C7EDB1 /* AppDelegate.swift */; };
+		EDFFCC0723A1167400C7EDB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFFCC0623A1167400C7EDB1 /* SceneDelegate.swift */; };
+		EDFFCC0923A1167400C7EDB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFFCC0823A1167400C7EDB1 /* ViewController.swift */; };
+		EDFFCC0C23A1167400C7EDB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFFCC0A23A1167400C7EDB1 /* Main.storyboard */; };
+		EDFFCC0E23A1167900C7EDB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFFCC0D23A1167900C7EDB1 /* Assets.xcassets */; };
+		EDFFCC1123A1167900C7EDB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFFCC0F23A1167900C7EDB1 /* LaunchScreen.storyboard */; };
+		EDFFCC1623A1167900C7EDB1 /* IosWatchCountDownAnimation WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EDFFCC1523A1167900C7EDB1 /* IosWatchCountDownAnimation WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EDFFCC1C23A1167900C7EDB1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFFCC1A23A1167900C7EDB1 /* Interface.storyboard */; };
+		EDFFCC1E23A1167A00C7EDB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFFCC1D23A1167A00C7EDB1 /* Assets.xcassets */; };
+		EDFFCC2523A1167B00C7EDB1 /* IosWatchCountDownAnimation WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EDFFCC2423A1167B00C7EDB1 /* IosWatchCountDownAnimation WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EDFFCC2A23A1167B00C7EDB1 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFFCC2923A1167B00C7EDB1 /* InterfaceController.swift */; };
+		EDFFCC2C23A1167B00C7EDB1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFFCC2B23A1167B00C7EDB1 /* ExtensionDelegate.swift */; };
+		EDFFCC2E23A1167B00C7EDB1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFFCC2D23A1167B00C7EDB1 /* NotificationController.swift */; };
+		EDFFCC3023A1167B00C7EDB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFFCC2F23A1167B00C7EDB1 /* Assets.xcassets */; };
+		EDFFCC4123A116E300C7EDB1 /* NextInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFFCC4023A116E300C7EDB1 /* NextInterfaceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDFFCC1723A1167900C7EDB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDFFCBF923A1167400C7EDB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDFFCC1423A1167900C7EDB1;
+			remoteInfo = "IosWatchCountDownAnimation WatchKit App";
+		};
+		EDFFCC2623A1167B00C7EDB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDFFCBF923A1167400C7EDB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDFFCC2323A1167B00C7EDB1;
+			remoteInfo = "IosWatchCountDownAnimation WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDFFCC3823A1167B00C7EDB1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EDFFCC2523A1167B00C7EDB1 /* IosWatchCountDownAnimation WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFFCC3C23A1167B00C7EDB1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EDFFCC1623A1167900C7EDB1 /* IosWatchCountDownAnimation WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EDFFCC0123A1167400C7EDB1 /* IosWatchCountDownAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosWatchCountDownAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFFCC0423A1167400C7EDB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDFFCC0623A1167400C7EDB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDFFCC0823A1167400C7EDB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDFFCC0B23A1167400C7EDB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDFFCC0D23A1167900C7EDB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDFFCC1023A1167900C7EDB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDFFCC1223A1167900C7EDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFFCC1523A1167900C7EDB1 /* IosWatchCountDownAnimation WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IosWatchCountDownAnimation WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFFCC1B23A1167900C7EDB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EDFFCC1D23A1167A00C7EDB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDFFCC1F23A1167A00C7EDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFFCC2423A1167B00C7EDB1 /* IosWatchCountDownAnimation WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IosWatchCountDownAnimation WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFFCC2923A1167B00C7EDB1 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		EDFFCC2B23A1167B00C7EDB1 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		EDFFCC2D23A1167B00C7EDB1 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		EDFFCC2F23A1167B00C7EDB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDFFCC3123A1167B00C7EDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFFCC3223A1167B00C7EDB1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		EDFFCC4023A116E300C7EDB1 /* NextInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextInterfaceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDFFCBFE23A1167400C7EDB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFFCC2123A1167B00C7EDB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDFFCBF823A1167400C7EDB1 = {
+			isa = PBXGroup;
+			children = (
+				EDFFCC0323A1167400C7EDB1 /* IosWatchCountDownAnimation */,
+				EDFFCC1923A1167900C7EDB1 /* IosWatchCountDownAnimation WatchKit App */,
+				EDFFCC2823A1167B00C7EDB1 /* IosWatchCountDownAnimation WatchKit Extension */,
+				EDFFCC0223A1167400C7EDB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDFFCC0223A1167400C7EDB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDFFCC0123A1167400C7EDB1 /* IosWatchCountDownAnimation.app */,
+				EDFFCC1523A1167900C7EDB1 /* IosWatchCountDownAnimation WatchKit App.app */,
+				EDFFCC2423A1167B00C7EDB1 /* IosWatchCountDownAnimation WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDFFCC0323A1167400C7EDB1 /* IosWatchCountDownAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EDFFCC0423A1167400C7EDB1 /* AppDelegate.swift */,
+				EDFFCC0623A1167400C7EDB1 /* SceneDelegate.swift */,
+				EDFFCC0823A1167400C7EDB1 /* ViewController.swift */,
+				EDFFCC0A23A1167400C7EDB1 /* Main.storyboard */,
+				EDFFCC0D23A1167900C7EDB1 /* Assets.xcassets */,
+				EDFFCC0F23A1167900C7EDB1 /* LaunchScreen.storyboard */,
+				EDFFCC1223A1167900C7EDB1 /* Info.plist */,
+			);
+			path = IosWatchCountDownAnimation;
+			sourceTree = "<group>";
+		};
+		EDFFCC1923A1167900C7EDB1 /* IosWatchCountDownAnimation WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EDFFCC1A23A1167900C7EDB1 /* Interface.storyboard */,
+				EDFFCC1D23A1167A00C7EDB1 /* Assets.xcassets */,
+				EDFFCC1F23A1167A00C7EDB1 /* Info.plist */,
+			);
+			path = "IosWatchCountDownAnimation WatchKit App";
+			sourceTree = "<group>";
+		};
+		EDFFCC2823A1167B00C7EDB1 /* IosWatchCountDownAnimation WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EDFFCC2923A1167B00C7EDB1 /* InterfaceController.swift */,
+				EDFFCC4023A116E300C7EDB1 /* NextInterfaceController.swift */,
+				EDFFCC2B23A1167B00C7EDB1 /* ExtensionDelegate.swift */,
+				EDFFCC2D23A1167B00C7EDB1 /* NotificationController.swift */,
+				EDFFCC2F23A1167B00C7EDB1 /* Assets.xcassets */,
+				EDFFCC3123A1167B00C7EDB1 /* Info.plist */,
+				EDFFCC3223A1167B00C7EDB1 /* PushNotificationPayload.apns */,
+			);
+			path = "IosWatchCountDownAnimation WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDFFCC0023A1167400C7EDB1 /* IosWatchCountDownAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDFFCC3D23A1167B00C7EDB1 /* Build configuration list for PBXNativeTarget "IosWatchCountDownAnimation" */;
+			buildPhases = (
+				EDFFCBFD23A1167400C7EDB1 /* Sources */,
+				EDFFCBFE23A1167400C7EDB1 /* Frameworks */,
+				EDFFCBFF23A1167400C7EDB1 /* Resources */,
+				EDFFCC3C23A1167B00C7EDB1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDFFCC1823A1167900C7EDB1 /* PBXTargetDependency */,
+			);
+			name = IosWatchCountDownAnimation;
+			productName = IosWatchCountDownAnimation;
+			productReference = EDFFCC0123A1167400C7EDB1 /* IosWatchCountDownAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDFFCC1423A1167900C7EDB1 /* IosWatchCountDownAnimation WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDFFCC3923A1167B00C7EDB1 /* Build configuration list for PBXNativeTarget "IosWatchCountDownAnimation WatchKit App" */;
+			buildPhases = (
+				EDFFCC1323A1167900C7EDB1 /* Resources */,
+				EDFFCC3823A1167B00C7EDB1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDFFCC2723A1167B00C7EDB1 /* PBXTargetDependency */,
+			);
+			name = "IosWatchCountDownAnimation WatchKit App";
+			productName = "IosWatchCountDownAnimation WatchKit App";
+			productReference = EDFFCC1523A1167900C7EDB1 /* IosWatchCountDownAnimation WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		EDFFCC2323A1167B00C7EDB1 /* IosWatchCountDownAnimation WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDFFCC3523A1167B00C7EDB1 /* Build configuration list for PBXNativeTarget "IosWatchCountDownAnimation WatchKit Extension" */;
+			buildPhases = (
+				EDFFCC2023A1167B00C7EDB1 /* Sources */,
+				EDFFCC2123A1167B00C7EDB1 /* Frameworks */,
+				EDFFCC2223A1167B00C7EDB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IosWatchCountDownAnimation WatchKit Extension";
+			productName = "IosWatchCountDownAnimation WatchKit Extension";
+			productReference = EDFFCC2423A1167B00C7EDB1 /* IosWatchCountDownAnimation WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDFFCBF923A1167400C7EDB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Tanay Bhattacharjee";
+				TargetAttributes = {
+					EDFFCC0023A1167400C7EDB1 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EDFFCC1423A1167900C7EDB1 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EDFFCC2323A1167B00C7EDB1 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EDFFCBFC23A1167400C7EDB1 /* Build configuration list for PBXProject "IosWatchCountDownAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDFFCBF823A1167400C7EDB1;
+			productRefGroup = EDFFCC0223A1167400C7EDB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDFFCC0023A1167400C7EDB1 /* IosWatchCountDownAnimation */,
+				EDFFCC1423A1167900C7EDB1 /* IosWatchCountDownAnimation WatchKit App */,
+				EDFFCC2323A1167B00C7EDB1 /* IosWatchCountDownAnimation WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDFFCBFF23A1167400C7EDB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFFCC1123A1167900C7EDB1 /* LaunchScreen.storyboard in Resources */,
+				EDFFCC0E23A1167900C7EDB1 /* Assets.xcassets in Resources */,
+				EDFFCC0C23A1167400C7EDB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFFCC1323A1167900C7EDB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFFCC1E23A1167A00C7EDB1 /* Assets.xcassets in Resources */,
+				EDFFCC1C23A1167900C7EDB1 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFFCC2223A1167B00C7EDB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFFCC3023A1167B00C7EDB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDFFCBFD23A1167400C7EDB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFFCC0923A1167400C7EDB1 /* ViewController.swift in Sources */,
+				EDFFCC0523A1167400C7EDB1 /* AppDelegate.swift in Sources */,
+				EDFFCC0723A1167400C7EDB1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFFCC2023A1167B00C7EDB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFFCC4123A116E300C7EDB1 /* NextInterfaceController.swift in Sources */,
+				EDFFCC2E23A1167B00C7EDB1 /* NotificationController.swift in Sources */,
+				EDFFCC2C23A1167B00C7EDB1 /* ExtensionDelegate.swift in Sources */,
+				EDFFCC2A23A1167B00C7EDB1 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDFFCC1823A1167900C7EDB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDFFCC1423A1167900C7EDB1 /* IosWatchCountDownAnimation WatchKit App */;
+			targetProxy = EDFFCC1723A1167900C7EDB1 /* PBXContainerItemProxy */;
+		};
+		EDFFCC2723A1167B00C7EDB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDFFCC2323A1167B00C7EDB1 /* IosWatchCountDownAnimation WatchKit Extension */;
+			targetProxy = EDFFCC2623A1167B00C7EDB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDFFCC0A23A1167400C7EDB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDFFCC0B23A1167400C7EDB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDFFCC0F23A1167900C7EDB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDFFCC1023A1167900C7EDB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EDFFCC1A23A1167900C7EDB1 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDFFCC1B23A1167900C7EDB1 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDFFCC3323A1167B00C7EDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDFFCC3423A1167B00C7EDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDFFCC3623A1167B00C7EDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "IosWatchCountDownAnimation WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanay.app.IosWatchCountDownAnimation.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		EDFFCC3723A1167B00C7EDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "IosWatchCountDownAnimation WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanay.app.IosWatchCountDownAnimation.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		EDFFCC3A23A1167B00C7EDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = IosWatchCountDownAnimation_WatchKit_Extension;
+				INFOPLIST_FILE = "IosWatchCountDownAnimation WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanay.app.IosWatchCountDownAnimation.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		EDFFCC3B23A1167B00C7EDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = IosWatchCountDownAnimation_WatchKit_Extension;
+				INFOPLIST_FILE = "IosWatchCountDownAnimation WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanay.app.IosWatchCountDownAnimation.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		EDFFCC3E23A1167B00C7EDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IosWatchCountDownAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanay.app.IosWatchCountDownAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDFFCC3F23A1167B00C7EDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IosWatchCountDownAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanay.app.IosWatchCountDownAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDFFCBFC23A1167400C7EDB1 /* Build configuration list for PBXProject "IosWatchCountDownAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFFCC3323A1167B00C7EDB1 /* Debug */,
+				EDFFCC3423A1167B00C7EDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFFCC3523A1167B00C7EDB1 /* Build configuration list for PBXNativeTarget "IosWatchCountDownAnimation WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFFCC3623A1167B00C7EDB1 /* Debug */,
+				EDFFCC3723A1167B00C7EDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFFCC3923A1167B00C7EDB1 /* Build configuration list for PBXNativeTarget "IosWatchCountDownAnimation WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFFCC3A23A1167B00C7EDB1 /* Debug */,
+				EDFFCC3B23A1167B00C7EDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFFCC3D23A1167B00C7EDB1 /* Build configuration list for PBXNativeTarget "IosWatchCountDownAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFFCC3E23A1167B00C7EDB1 /* Debug */,
+				EDFFCC3F23A1167B00C7EDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDFFCBF923A1167400C7EDB1 /* Project object */;
+}

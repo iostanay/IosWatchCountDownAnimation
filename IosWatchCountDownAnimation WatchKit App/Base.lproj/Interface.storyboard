@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15505" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LBm-sQ-NhW">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="jdM-wG-NYB">
+            <objects>
+                <controller fullScreen="YES" id="LBm-sQ-NhW" customClass="InterfaceController" customModule="IosWatchCountDownAnimation_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="PRb-Kn-yzU">
+                            <items>
+                                <group width="1" height="200" alignment="left" id="tYS-zA-EMl"/>
+                                <group width="1" height="200" alignment="left" layout="vertical" id="U1r-5Y-gbJ">
+                                    <items>
+                                        <label alignment="center" verticalAlignment="center" text="1" textAlignment="center" id="tav-Vw-dBc">
+                                            <fontDescription key="font" type="boldSystem" pointSize="140"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <group width="1" height="200" alignment="left" layout="vertical" id="c1P-pV-YBx">
+                                    <items>
+                                        <label alignment="center" verticalAlignment="center" text="2" textAlignment="center" id="Za3-3u-ESH">
+                                            <fontDescription key="font" type="boldSystem" pointSize="140"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <group width="1" height="193" alignment="left" layout="vertical" id="pvM-38-NAJ">
+                                    <items>
+                                        <label alignment="center" verticalAlignment="center" text="3" textAlignment="center" id="qUH-rs-Mso">
+                                            <fontDescription key="font" type="boldSystem" pointSize="140"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <group width="1" height="200" alignment="left" layout="vertical" id="1Q6-ea-FXL"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="baseGroup" destination="PRb-Kn-yzU" id="lUZ-ty-zeL"/>
+                        <outlet property="group1" destination="U1r-5Y-gbJ" id="eq1-7e-mqa"/>
+                        <outlet property="group2" destination="c1P-pV-YBx" id="Spl-Gd-y3d"/>
+                        <outlet property="group3" destination="pvM-38-NAJ" id="Nqc-Jv-pSL"/>
+                        <outlet property="group4" destination="1Q6-ea-FXL" id="8N7-0F-9vi"/>
+                        <outlet property="inSessionGroup" destination="tYS-zA-EMl" id="j4T-Zh-Iym"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1783.6923076923078" y="10.897435897435898"/>
+        </scene>
+        <!--Next-->
+        <scene sceneID="Llz-C1-icp">
+            <objects>
+                <controller identifier="Next" id="0vF-3c-OVA" customClass="NextInterfaceController" customModule="IosWatchCountDownAnimation_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="136" alignment="center" verticalAlignment="center" semanticContentAttribute="forceLeftToRight" text="Ready" textAlignment="center" baselineAdjustment="alignCenters" id="K4K-Hz-vSh">
+                            <fontDescription key="font" type="boldSystem" pointSize="48"/>
+                            <variation key="device=watch40mm">
+                                <accessibilityTraits key="accessibilityTraits" notEnabled="YES"/>
+                            </variation>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="2042.9565217391303" y="-274.73214285714283"/>
+        </scene>
+    </scenes>
+</document>
